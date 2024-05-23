@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Animated Slider</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <button id="prev" class="control-btn"><i class='bx bxs-left-arrow'></i></button>
+            <div class="slides">
+                <div class="slide active"><img
+                        src="img/Bismillah.jpg"
+                        alt="Image 1"></div>
+                <div class="slide"><img
+                        src="img/python-programming-programming-programming-language-code-hd-wallpaper-preview.jpg"
+                        alt="Image 2"></div>
+                <div class="slide"><img
+                        src="img/silver-logo-samsung-wallpaper-preview.jpg"
+                        alt="Image 3"></div>
+            </div>
+            <div class="indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+            <button id="next" class="control-btn"><i class='bx bxs-right-arrow'></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
